@@ -1,3 +1,8 @@
+// reveals in a 2d image, where there's data and where there isn't.
+// green=data present; black=missing data; red=currently selected data
+// expects <canvas id="someCanvas" width="1024" height="2048"></canvas> in index.html
+
+
 let canvasData, ctx, w, h
 
 export function startImage(id) {
